@@ -7,6 +7,6 @@ a {
 .visually-hidden {
   display: none; 
 }
-.card-category {
+.card-category, .section-tagline {
   color: #D73953
 }
