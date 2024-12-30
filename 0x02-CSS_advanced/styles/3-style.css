@@ -16,5 +16,5 @@ a {
   display: none; 
 }
 .card-category, .section-tagline {
-  color: var(--color-black);
+  color: var(--color-primary);
 }
