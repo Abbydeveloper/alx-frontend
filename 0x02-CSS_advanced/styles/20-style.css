@@ -99,11 +99,6 @@ ul.row li {
   float: left;
   padding: 0.5rem;
 }
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .visually-hidden {
   display: none; 
 }
