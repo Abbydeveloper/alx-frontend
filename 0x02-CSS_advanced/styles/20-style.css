@@ -84,9 +84,7 @@ a:active {
 }
 ul.row {
   margin: 0;
-  padding: 0
-}
-ul.row li {
+  padding: 0;
   list-style: none;
 }
 .col-1-3 {
@@ -98,6 +96,11 @@ ul.row li {
   width: 50%;
   float: left;
   padding: 0.5rem;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .visually-hidden {
   display: none; 
